@@ -52,12 +52,14 @@ def bubble_sort_by(array)
         loop {
             sorted = false
             (n-1).times { |i|
-                if yield(array[i],array[i+1]) > 0
+                if yield(array[i] , array[i+1]) > 0
                     array[i] , array[i+1] = array[i+1],array[i]
                     sorted = true
-                end
 
-                
+                else yield(array[i] , array[i+1]) <= 0
+                    array[i] , array[i+1] = array[i],array[i+1]
+                    sorted = true
+                end     
             }
             break if !sorted
 
