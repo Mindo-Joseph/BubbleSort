@@ -6,7 +6,7 @@ def bubble_sort(array)
         array
         
     elsif n == 0
-        puts "Array is empty"
+        return "Array is empty"
         
     else
         loop { 
@@ -39,6 +39,33 @@ def bubble_sort(array)
 end
             
 
-sorted = bubble_sort([])
+def bubble_sort_by(array)
+    n = array.size
+    if n == 1
+        array
+        
+    elsif n == 0
+        "Array is empty"
+        
+    else
+        
+        loop {
+            sorted = false
+            (n-1).times { |i|
+                if yield(array[i],array[i+1]) > 0
+                    array[i] , array[i+1] = array[i+1],array[i]
+                    sorted = true
+                end
 
-p sorted
+                
+            }
+            break if !sorted
+
+        }
+        
+        array
+    end
+end
+c = bubble_sort_by(["hi","hello","hey","is","somelog","a"]) { |left,right| left.length - right.length} 
+p c
+    
