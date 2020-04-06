@@ -55,19 +55,18 @@ def bubble_sort_by(array)
                 if yield(array[i] , array[i+1]) > 0
                     array[i] , array[i+1] = array[i+1],array[i]
                     sorted = true
-
-                else yield(array[i] , array[i+1]) <= 0
-                    array[i] , array[i+1] = array[i],array[i+1]
-                    sorted = true
-                end     
+                
+                end 
+                    
             }
             break if !sorted
+            
 
         }
         
         array
     end
 end
-c = bubble_sort_by(["hi","hello","hey","is","somelog","a"]) { |left,right| left.length - right.length} 
+c = bubble_sort_by(["hi","hello","hey","is","somelog","a","b","you"]) { |left,right| left.length - right.length} 
 p c
     
