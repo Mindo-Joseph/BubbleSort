@@ -3,10 +3,6 @@ Ruby implementation of bubble sort algorithm which accepts an array and arranges
 ## Built With
 - Ruby
 
-## Live Demo
-
-https://mindo-joseph.github.io/Flower-e-shop/
-
 
 👤 **Authors**
 
