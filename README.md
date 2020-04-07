@@ -5,7 +5,7 @@ Ruby implementation of bubble sort algorithm which accepts an array and arranges
 
 ## Live Demo
 
-https://mindo-joseph.github.io/Flower-e-shop/
+https://raw.githack.com/Mindo-Joseph/Bubbhttps://github.com/Mindo-Joseph/BubbleSort/blob/feature/bubble_sort.rbleSort/blob/feature/bubble_sort.rb
 
 
 👤 **Authors**
@@ -19,7 +19,7 @@ https://mindo-joseph.github.io/Flower-e-shop/
 - Github: [@KossySteve](https://github.com/KossySteve)
 - Twitter: [@EzeSteve3](https://twitter.com/EzeSteve3/)
 - Linkedin: [linkedin](https://www.linkedin.com/in/steve-ez-b090ba198/) 
-
+- Mail: kossyeze@gmail.com
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
