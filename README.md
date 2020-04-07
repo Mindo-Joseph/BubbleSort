@@ -1,9 +1,7 @@
 # BubbleSort
-Ruby implementation of bubble sort algorithm
+Ruby implementation of bubble sort algorithm which accepts an array and arranges each element in ascending order.
 ## Built With
-
-- HTML,
-- CSS
+- Ruby
 
 ## Live Demo
 
