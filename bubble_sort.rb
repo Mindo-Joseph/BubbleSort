@@ -33,10 +33,3 @@ def bubble_sort_by(array)
     end
     array
 end
-
-# Examples
-sort_numbers = bubblesort([0,-1,7,1,5,3])
-sort_words= bubble_sort_by(["hi","hello","hey","is","somelog","a","b","you"]) { |left,right| left.length - right.length} 
-
-p sort_words
-p sort_numbers
