@@ -1,5 +1,5 @@
 #Method definition
-def bubblesort(array) 
+def bubble_sort(array) 
    swapped = true
    n = array.length-1
    while swapped do
