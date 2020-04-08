@@ -4,16 +4,13 @@ Ruby implementation of bubble sort algorithm which accepts an array and arranges
 ## Built With
 - Ruby
 
-<<<<<<< HEAD
-## Live Link
-[Link](https://github.com/Mindo-Joseph/BubbleSort)
-=======
+
 ## Live Demo
 
 https://raw.githack.com/Mindo-Joseph/Bubbhttps://github.com/Mindo-Joseph/BubbleSort/blob/feature/bubble_sort.rbleSort/blob/feature/bubble_sort.rb
 
 
->>>>>>> f71184ea9d2a08113823a5009c638bd3163417c4
+
 👤 **Authors**
 
 ***Joseph Mindo***
@@ -21,6 +18,7 @@ https://raw.githack.com/Mindo-Joseph/Bubbhttps://github.com/Mindo-Joseph/BubbleS
 - Twitter: [@mindoJoseph](https://twitter.com/mindoJoseph)
 - Linkedin: [Joseph Mindo](https://www.linkedin.com/in/joseph-mindo-367284132/)
 - Mail: mindo.joseph.mj@gmail.com
+
 
 ***Kossy Steve***
 - Github: [@KossySteve](https://github.com/KossySteve)
